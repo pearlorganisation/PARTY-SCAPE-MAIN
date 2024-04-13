@@ -1,0 +1,37 @@
+.top_banner {
+  width: 100%;
+  position: relative;
+  background-image: url("https://partyscape.in/wp-content/uploads/2024/01/756.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 450px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  width: 100%;
+  transition: 0.5s ease;
+
+  font-size: 45px;
+  padding: 20px;
+  text-align: center;
+}
+
+.serviceCardWrapper {
+  display: flex;
+  padding: 1rem 0 0 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
