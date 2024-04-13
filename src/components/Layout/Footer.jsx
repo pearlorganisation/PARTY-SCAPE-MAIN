@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container">
           <div className="inner-content">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer f-about">
                   <div className="logo">
                     <a href="index.html">
@@ -43,46 +43,73 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-6 col-12">
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer f-link">
                   <h3>Quick Links</h3>
                   <ul>
                     <li>
-                      <a href="#">Get Direction</a>
+                      <a href="#">Privacy Policy</a>
                     </li>
                     <li>
-                      <a href="#">Sponsor</a>
+                      <a href="#">Refund Policy</a>
                     </li>
-                    <li>
-                      <a href="#">What We Offer</a>
-                    </li>
-                    <li>
-                      <a href="#">Ricent Projects</a>
-                    </li>
-                    <li>
-                      <a href="#">Insights</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-6 col-12">
-                <div className="single-footer f-link">
-                  <h3>Know More</h3>
-                  <ul>
                     <li>
                       <a href="#">About Us</a>
                     </li>
                     <li>
-                      <a href="#">Our Pricing</a>
-                    </li>
-                    <li>
-                      <a href="#">Faq</a>
-                    </li>
-                    <li>
-                      <a href="#">Guides</a>
-                    </li>
-                    <li>
                       <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Gallery</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="single-footer f-link">
+                  <h3>Our Capability</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Theatres</a>
+                    </li>
+                    <li>
+                      <a href="#">Cakes</a>
+                    </li>
+                    <li>
+                      <a href="#">Food & Beverages</a>
+                    </li>
+                    <li>
+                      <a href="#">Bouquets</a>
+                    </li>
+                    <li>
+                      <a href="#">Gifts</a>
+                    </li>
+                    <li>
+                      <a href="#">Photography</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="single-footer">
+                  <h3>Contact Info</h3>
+                  <ul>
+                    <li>
+                      H.NO: 8-1-284/OU/385/1 & 2
+                    </li>
+                    <li>
+                      4th Floor
+                    </li>
+                    <li>
+                      OU Colony, Shaikpet, Hyderabad-500008
+                    </li>
+                    <li>
+                      Mobile No: 9030690101
+                    </li>
+                    <li>
+                      Email: partyscape24@gmail.com
                     </li>
                   </ul>
                 </div>

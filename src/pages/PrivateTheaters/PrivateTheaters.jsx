@@ -1,7 +1,8 @@
-import React from 'react'
-import AboutUsSection from '../../components/AboutUsSection/AboutUsSection'
+import React from "react";
+import Theaters from "../../components/Theaters/Theaters";
 
-const AboutUs = () => {
+
+const PrivateTheaters = () => {
   return (
     <>
     <section className="call-action overlay">
@@ -19,9 +20,9 @@ const AboutUs = () => {
         </div>
       </div>
     </section>
-        <AboutUsSection />
+    <Theaters />
     </>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default PrivateTheaters;

@@ -10,7 +10,7 @@ const Header = () => {
               {/* Navbar content */}
               <nav className="navbar navbar-expand-lg">
                 {/* Navbar brand */}
-                <a className="navbar-brand" href="index.html">
+                <a className="navbar-brand" href="/">
                   <img src="/images/logo/logo.png" alt="Logo" />
                 </a>
                 {/* Mobile menu toggle button */}
@@ -35,14 +35,14 @@ const Header = () => {
                   <ul id="nav" className="navbar-nav ms-auto">
                     <li className="nav-item">
                       <a
-                        href="index.html"
-                        className="active"
+                        href="/"
+                        // className="active"
                         aria-label="Toggle navigation"
                       >
                         Home
                       </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a
                         className="dd-menu collapsed"
                         href="#"
@@ -74,51 +74,53 @@ const Header = () => {
                           <a href="404.html">404 Error</a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
+
+
                     <li className="nav-item">
-                      <a href="schedule.html" aria-label="Toggle navigation">
-                        Schedule
+                      <a href="privatetheaters" aria-label="Toggle navigation">
+                        Private Theaters
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a href="speakers.html" aria-label="Toggle navigation">
-                        Speakers
+                      <a href="gallery" aria-label="Toggle navigation">
+                        Gallery
                       </a>
                     </li>
                     <li className="nav-item">
                       <a
                         className="dd-menu collapsed"
-                        href="#"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#submenu-1-2"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
+                        href="aboutus"
+                        // data-bs-toggle="collapse"
+                        // data-bs-target="#submenu-1-2"
+                        // aria-controls="navbarSupportedContent"
+                        // aria-expanded="false"
+                        // aria-label="Toggle navigation"
                       >
-                        Blog
+                        Abous Us
                       </a>
-                      <ul className="sub-menu collapse" id="submenu-1-2">
+                      {/* <ul className="sub-menu collapse" id="submenu-1-2">
                         <li className="nav-item">
                           <a href="blog-grid.html">Blog Grid</a>
                         </li>
                         <li className="nav-item">
                           <a href="blog-single.html">Blog Single</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="nav-item">
-                      <a href="contact.html" aria-label="Toggle navigation">
+                      <a href="contactus" aria-label="Toggle navigation">
                         Contact
                       </a>
                     </li>
                   </ul>
                 </div>
                 {/* Navbar collapse */}
-                <div className="button">
+                {/* <div className="button">
                   <a href="pricing.html" className="btn">
                     Get Tickets<i className="lni lni-ticket"></i>
                   </a>
-                </div>
+                </div> */}
               </nav>
               {/* End Navbar */}
             </div>

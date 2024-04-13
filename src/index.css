@@ -906,7 +906,7 @@ ol {
   padding-bottom: 100px;
   z-index: 2;
   text-align: center;
-  background-image: url("../images/breadcrumbs/breadcrumb-bg.jpg");
+  background-image: url("/images/breadcrumbs/breadcrumb-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2084,7 +2084,7 @@ ol {
   background-color: #101130;
   padding: 200px 0 150px 0;
   padding-bottom: 240px;
-  background-image: url("images/hero/hero-bg.jpg");
+  background-image: url("/images/hero/hero-bg.jpg");
   filter: brightness(95%);
   background-size: cover;
   background-position: center;
@@ -2276,7 +2276,7 @@ ol {
 .count-down .box-content {
   text-align: center;
   background-color: #3813c2;
-  background-image: url("../images/count-down/bg.png");
+  background-image: url("/images/count-down/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2306,7 +2306,7 @@ ol {
   left: 0;
   top: 0;
   content: '';
-  background: url(../images/count-down/left-shape.png) no-repeat;
+  background: url(/images/count-down/left-shape.png) no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -2319,7 +2319,7 @@ ol {
   right: 0;
   top: 0;
   content: '';
-  background: url(../images/count-down/right-shape.png) no-repeat;
+  background: url(/images/count-down/right-shape.png) no-repeat;
   height: 100%;
   width: 100%;
   background-position: center;
@@ -2458,6 +2458,7 @@ ol {
   transition: all 0.4s ease;
   overflow: hidden;
   z-index: 2;
+  height: 300px;
 }
 
 .single-featuer .shape {
@@ -2516,7 +2517,7 @@ ol {
   font-size: 30px;
   -webkit-box-shadow: 0px 10px 30px rgba(48, 128, 227, 0.18);
           box-shadow: 0px 10px 30px rgba(48, 128, 227, 0.18);
-  background-image: url("../images/count-down/bg.png");
+  background-image: url("/images/count-down/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2582,7 +2583,7 @@ ol {
 	Pricing Table CSS
 ===============================*/
 .pricing-table {
-  background-image: url("../images/pricing/pricing-bg.jpg");
+  background-image: url("/images/pricing/pricing-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2653,9 +2654,9 @@ ol {
   margin-bottom: 15px;
   color: #a80601;
   padding: 8px 25px;
-  border: 2px solid #a80601;
+  border-bottom: 2px solid #a80601;
   display: inline-block;
-  border-radius: 30px;
+  /* border-radius: 30px; */
 }
 
 .pricing-table .single-table .table-head p {
@@ -2830,7 +2831,7 @@ ol {
     Call To Action CSS
 ========================================*/
 .call-action {
-  background-image: url("../images/call-action/call-bg.jpg");
+  background-image: url("/images/call-action/call-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3051,12 +3052,12 @@ ol {
 }
 
 .footer .single-footer.f-about .logo img {
-  width: 190px;
+  width: 160px;
 }
 
 .footer .single-footer.f-about p {
   color: #727272;
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 15px;
   line-height: 26px;
 }
