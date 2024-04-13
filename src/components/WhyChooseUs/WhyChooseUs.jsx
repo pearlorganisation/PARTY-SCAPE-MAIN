@@ -7,16 +7,16 @@ const WhyChooseUs = () => {
         <div className="row">
           <div className="col-12">
             <div className="section-title">
-              <h3 className="wow zoomIn" data-wow-delay=".2s">
+              {/* <h3 className="wow zoomIn" data-wow-delay=".2s">
                 Why join eventGrids?
-              </h3>
+              </h3> */}
               <h2 className="wow fadeInUp" data-wow-delay=".4s">
-                Why you should Join Event
+                Why choose us?
               </h2>
-              <p className="wow fadeInUp" data-wow-delay=".6s">
+              {/* <p className="wow fadeInUp" data-wow-delay=".6s">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -33,13 +33,12 @@ const WhyChooseUs = () => {
                 alt="#"
               />
               <span className="serial">01</span>
-              <div className="service-icon">
+              {/* <div className="service-icon">
                 <i className="lni lni-microphone"></i>
-              </div>
-              <h3>Great Speakers</h3>
+              </div> */}
+              <h3>Exclusive Private Theatres:</h3>
               <p>
-                How you transform your business as tech, consumer, habits
-                industry dynamic change, Find out from.
+              Dive into the luxury of our private theatres, offering a unique and intimate setting that public cinemas simply can’t match. Perfect for those special, private gatherings where every detail matters.
               </p>
             </div>
           </div>
@@ -55,13 +54,12 @@ const WhyChooseUs = () => {
                 alt="#"
               />
               <span className="serial">02</span>
-              <div className="service-icon">
+              {/* <div className="service-icon">
                 <i className="lni lni-users"></i>
-              </div>
-              <h3>New People</h3>
+              </div> */}
+              <h3>State-of-the-Art Audio-Visual Experience</h3>
               <p>
-                How you transform your business as tech, consumer, habits
-                industry dynamic change, Find out from.
+              Immerse yourself in the extraordinary with our 4K video quality and Dolby Atmos sound systems. Every scene comes alive, providing an unmatched cinematic experience.
               </p>
             </div>
           </div>
@@ -77,13 +75,12 @@ const WhyChooseUs = () => {
                 alt="#"
               />
               <span className="serial">03</span>
-              <div className="service-icon">
+              {/* <div className="service-icon">
                 <i className="lni lni-bullhorn"></i>
-              </div>
-              <h3>Global Event</h3>
+              </div> */}
+              <h3>Tailored Celebrations</h3>
               <p>
-                How you transform your business as tech, consumer, habits
-                industry dynamic change, Find out from.
+              Your event is uniquely yours. We offer fully customizable services, from themed decorations to curated menus, ensuring your celebration reflects your personal style and preferences.
               </p>
             </div>
           </div>
@@ -99,13 +96,12 @@ const WhyChooseUs = () => {
                 alt="#"
               />
               <span className="serial">04</span>
-              <div className="service-icon">
+              {/* <div className="service-icon">
                 <i className="lni lni-heart"></i>
-              </div>
-              <h3>Get Inspired</h3>
+              </div> */}
+              <h3>Variety of Additional Services</h3>
               <p>
-                How you transform your business as tech, consumer, habits
-                industry dynamic change, Find out from.
+              Beyond the screen, we offer a range of services including gourmet catering, professional photography, bespoke cakes, elegant bouquets, and thoughtful gifts. All designed to enhance your event
               </p>
             </div>
           </div>
@@ -121,13 +117,12 @@ const WhyChooseUs = () => {
                 alt="#"
               />
               <span className="serial">05</span>
-              <div className="service-icon">
+              {/* <div className="service-icon">
                 <i className="lni lni-cup"></i>
-              </div>
-              <h3>Networking Session</h3>
+              </div> */}
+              <h3>Hassle-Free Planning</h3>
               <p>
-                How you transform your business as tech, consumer, habits
-                industry dynamic change, Find out from.
+              Our dedicated team handles all the details, from planning to execution, ensuring a seamless and stress-free experience for you. Just share your vision, and we’ll bring it to life
               </p>
             </div>
           </div>
@@ -143,13 +138,12 @@ const WhyChooseUs = () => {
                 alt="#"
               />
               <span className="serial">06</span>
-              <div className="service-icon">
+              {/* <div className="service-icon">
                 <i className="lni lni-happy"></i>
-              </div>
-              <h3>Meet New Faces</h3>
+              </div> */}
+              <h3>Unforgettable Experiences</h3>
               <p>
-                How you transform your business as tech, consumer, habits
-                industry dynamic change, Find out from.
+               We don’t just host events; we create memories. Whether it’s a romantic date night, a milestone birthday, or a corporate gathering, each event is crafted to be an unforgettable experience
               </p>
             </div>
           </div>

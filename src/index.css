@@ -2084,7 +2084,8 @@ ol {
   background-color: #101130;
   padding: 200px 0 150px 0;
   padding-bottom: 240px;
-  background-image: url("../images/hero/hero-bg.jpg");
+  background-image: url("images/hero/hero-bg.jpg");
+  filter: brightness(95%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2619,7 +2620,10 @@ ol {
   background-color: #fff;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  padding: 50px 35px;
+  /* padding: 50px 35px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   text-align: center;
   z-index: 0;
   transition: all 0.4s ease;
@@ -2643,12 +2647,13 @@ ol {
 }
 
 .pricing-table .single-table .table-head .title {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
-  margin-bottom: 25px;
-  color: #3080e3;
-  padding: 8px 20px;
-  border: 2px solid #3080e3;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #a80601;
+  padding: 8px 25px;
+  border: 2px solid #a80601;
   display: inline-block;
   border-radius: 30px;
 }
@@ -2707,6 +2712,12 @@ ol {
   background-color: #fff;
   border-radius: 50%;
 }
+
+/* .theaterCardContent {
+  display: flex;
+  gap:5px;
+  justify-content: ;
+} */
 
 .pricing-table .single-table .table-content .table-list li {
   position: relative;
