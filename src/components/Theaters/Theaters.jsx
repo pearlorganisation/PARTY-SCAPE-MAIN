@@ -11,7 +11,7 @@ const Theaters = () => {
                 PRIVATE THEATRES
               </h3>
               <h2 className="wow fadeInUp" data-wow-delay=".4s">
-                Our Theaters
+                Select from Our Theaters:
               </h2>
               {/* <p className="wow fadeInUp" data-wow-delay=".6s">
                 There are many variations of passages of Lorem Ipsum available,
@@ -28,7 +28,7 @@ const Theaters = () => {
             <div className="single-table">
               <div>
                 <img
-                  src="/images/theaters/theater.jpg"
+                  src="/images/heaven/3.jpg"
                   alt=""
                   style={{ width: "100%" }}
                 />
@@ -72,7 +72,7 @@ const Theaters = () => {
             <div className="single-table">
               <div>
                 <img
-                  src="/images/theaters/theater.jpg"
+                  src="/images/iconic/4.jpeg"
                   alt=""
                   style={{ width: "100%" }}
                 />
@@ -117,7 +117,7 @@ const Theaters = () => {
             <div className="single-table">
               <div>
                 <img
-                  src="/images/theaters/theater.jpg"
+                  src="/images/skyline/3.jpeg"
                   alt=""
                   style={{ width: "100%" }}
                 />

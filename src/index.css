@@ -1376,7 +1376,8 @@ ol {
 
 .button .btn:hover {
   color: #fff;
-  background-color: #F20487;
+  background-color: #f20438;
+  box-shadow: 0 0 0 1px #ffe2e2;
 }
 
 .button {

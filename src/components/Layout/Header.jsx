@@ -97,7 +97,7 @@ const Header = () => {
                         // aria-expanded="false"
                         // aria-label="Toggle navigation"
                       >
-                        Abous Us
+                        About Us
                       </a>
                       {/* <ul className="sub-menu collapse" id="submenu-1-2">
                         <li className="nav-item">
@@ -116,11 +116,11 @@ const Header = () => {
                   </ul>
                 </div>
                 {/* Navbar collapse */}
-                {/* <div className="button">
-                  <a href="pricing.html" className="btn">
-                    Get Tickets<i className="lni lni-ticket"></i>
+                <div className="button">
+                  <a href="/privatetheaters" className="btn">
+                    Book Now<i className="lni lni-ticket"></i>
                   </a>
-                </div> */}
+                </div>
               </nav>
               {/* End Navbar */}
             </div>
