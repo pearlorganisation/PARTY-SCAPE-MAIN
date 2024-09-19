@@ -1,0 +1,62 @@
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.myRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    /* gap:5px; */
+}
+
+.modal {
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgOverlay {
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: #35373a;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 997 ;
+}
+
+.modal-header {
+    justify-content: end !important;
+    height: 10px;
+}
+
+.tz-gallery img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.tz-gallery img:hover {
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(148, 5, 5);
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}

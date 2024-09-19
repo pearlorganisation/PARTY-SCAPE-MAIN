@@ -30,14 +30,14 @@ const Theaters = () => {
                 <img
                   src="/images/heaven/3.jpg"
                   alt=""
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", height: '200px' }}
                 />
               </div>
               <div className="theaterCardContent">
                 <div className="table-head">
                   <h4 className="title">HEAVEN</h4>
 
-                  {/* <p>Available tickets for this price</p> */}
+                  <p style={{color: '#131313', fontWeight: '500'}}>For Couple</p>
              
                 </div>
 
@@ -74,14 +74,14 @@ const Theaters = () => {
                 <img
                   src="/images/iconic/4.jpeg"
                   alt=""
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", height: '200px' }}
                 />
               </div>
               <div className="theaterCardContent">
                 <div className="table-head">
                   <h4 className="title">ICONIC</h4>
 
-                  {/* <p>Available tickets for this price</p> */}
+                  <p style={{color: '#131313', fontWeight: '500'}}>For 2-5 members</p>
              
                 </div>
 
@@ -119,14 +119,14 @@ const Theaters = () => {
                 <img
                   src="/images/skyline/3.jpeg"
                   alt=""
-                  style={{ width: "100%" }}
+                  style={{ width: "100%", height: '200px' }}
                 />
               </div>
               <div className="theaterCardContent">
                 <div className="table-head">
                   <h4 className="title">SKYLINE</h4>
 
-                  {/* <p>Available tickets for this price</p> */}
+                  <p style={{color: '#131313', fontWeight: '500'}}>For 2-8 members</p>
              
                 </div>
 

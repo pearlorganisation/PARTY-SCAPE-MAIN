@@ -1349,6 +1349,14 @@ ol {
           box-shadow: 0px 4px 7px #00000021;
 }
 
+
+.header .btn-center{
+  display:none;
+  width: 100px;
+ }
+
+ 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .button .btn {
     padding: 14px 25px;
@@ -1511,6 +1519,16 @@ ol {
   .header .button {
     margin: 0 !important;
   }
+
+  .header .btn-right{
+    display: none;
+   }
+   .header .btn-center{
+    display: block;
+    width: fit-content;
+   }
+
+
   .header .navbar-collapse {
     position: absolute;
     top: 65px !important;
@@ -1693,8 +1711,28 @@ ol {
 }
 
 @media (max-width: 767px) {
-  .header .button {
-    display: none;
+  .header .btn-right{
+   display: none;
+  }
+
+  .header .btn-center{
+    display: block;
+    width: fit-content;
+   }
+
+   .header .button .btn {
+    padding: 13px 18px !important;
+    font-size: 12px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  
+  .header .button .btn i {
+    display: none !important;
   }
 }
 
@@ -2035,6 +2073,8 @@ ol {
   font-size: 18px;
 }
 
+
+
 .others-pages {
   background-color: #fff;
 }
@@ -2072,6 +2112,7 @@ ol {
     background-color: #F20487;
     color: #fff;
   }
+
 }
 
 /*======================================

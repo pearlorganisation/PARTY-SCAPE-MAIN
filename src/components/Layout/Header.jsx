@@ -13,6 +13,15 @@ const Header = () => {
                 <a className="navbar-brand" href="/">
                   <img src="/images/logo/logo.png" alt="Logo" />
                 </a>
+
+
+                <div className="button btn-center">
+                  <a href="/privatetheaters" className="btn">
+                    Book Now<i className="lni lni-ticket"></i>
+                  </a>
+                </div>
+
+
                 {/* Mobile menu toggle button */}
                 <button
                   className="navbar-toggler mobile-menu-btn"
@@ -113,10 +122,15 @@ const Header = () => {
                         Contact
                       </a>
                     </li>
+                    <li className="nav-item">
+                      <a href="refundpolicy" aria-label="Toggle navigation">
+                        Refund Policy
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 {/* Navbar collapse */}
-                <div className="button">
+                <div className="button btn-right">
                   <a href="/privatetheaters" className="btn">
                     Book Now<i className="lni lni-ticket"></i>
                   </a>

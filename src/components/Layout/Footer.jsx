@@ -7,92 +7,77 @@ const Footer = () => {
         <div className="container">
           <div className="inner-content">
             <div className="row">
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12">
                 <div className="single-footer f-about">
                   <div className="logo">
-                    <a href="index.html">
-                      <img src="images/logo/logo.png" alt="#" />
+                    <a href="/">
+                      <img src="images/logo/logo.png" />
                     </a>
                   </div>
                   <p>
                     Welcome to Partyscape. your ultimate destination for an
                     private theatre and event celebration experience.
                   </p>
-                  <span className="social-title">Follow Us On:</span>
+                  {/* <span className="social-title">Follow Us On:</span>
                   <ul className="social">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i className="lni lni-facebook-filled"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i className="lni lni-twitter-filled"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i className="lni lni-instagram-filled"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i className="lni lni-linkedin-original"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12">
                 <div className="single-footer f-link">
                   <h3>Quick Links</h3>
                   <ul>
                     <li>
-                      <a href="#">Privacy Policy</a>
+                      <a href="/TermsAndConditions">Terms & Conditions</a>
                     </li>
                     <li>
-                      <a href="#">Refund Policy</a>
+                      <a href="/refundpolicy">Refund Policy</a>
                     </li>
                     <li>
-                      <a href="#">About Us</a>
+                      <a href="aboutus">About Us</a>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <a href="/contactus">Contact Us</a>
                     </li>
                     <li>
-                      <a href="#">Gallery</a>
+                      <a href="/gallery">Gallery</a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-12">
+              {/* <div className="col-lg-3 col-md-6 col-12">
                 <div className="single-footer f-link">
                   <h3>Our Capability</h3>
                   <ul>
                     <li>
-                      <a href="#">Theatres</a>
-                    </li>
-                    <li>
-                      <a href="#">Cakes</a>
-                    </li>
-                    <li>
-                      <a href="#">Food & Beverages</a>
-                    </li>
-                    <li>
-                      <a href="#">Bouquets</a>
-                    </li>
-                    <li>
-                      <a href="#">Gifts</a>
-                    </li>
-                    <li>
-                      <a href="#">Photography</a>
+                      <a href="/privatetheaters">Theatres</a>
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
 
 
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12">
                 <div className="single-footer">
                   <h3>Contact Info</h3>
                   <ul>
@@ -124,7 +109,7 @@ const Footer = () => {
           <div className="inner-content">
             <div className="row">
               <div className="col-12">
-                <p className="copyright-text">Copyright © 2024 PartyScape </p>
+                <p className="copyright-text">Copyright © <a href="https://pearlorganisation.com">Pearl Organisation</a> {new Date().getFullYear()} </p>
               </div>
             </div>
           </div>

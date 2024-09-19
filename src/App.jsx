@@ -11,6 +11,8 @@ import AboutUs from './pages/AboutUs/AboutUs.jsx'
 import ContactUs from './pages/ContactUs/ContactUs.jsx'
 
 import NotFound from './pages/NotFound/NotFound.jsx'
+import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions.jsx'
+import Refund from './pages/Refund/Refund.jsx'
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
       <Route path="/privatetheaters" element={<PrivateTheaters />}/>
       <Route path="/gallery" element={<Gallery />}/>
       <Route path="/aboutus" element={<AboutUs />}/>
+      <Route path="/TermsAndConditions" element={<TermsAndConditions />}/>
+      <Route path="/refundpolicy" element={<Refund />}/>
       <Route path="/contactus" element={<ContactUs />}/>
       <Route path="*" element={<NotFound />}/>
       
