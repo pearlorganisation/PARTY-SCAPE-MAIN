@@ -43,7 +43,7 @@ const Theaters = () => {
 
                 <div className="button">
                   <a
-                    href="https://booking.partyscape.in/heaven"
+                    href="https://booking.partyscape.co.in/heaven"
                     className="btn"
                   >
                     Book now
@@ -87,7 +87,7 @@ const Theaters = () => {
 
                 <div className="button">
                   <a
-                    href="https://booking.partyscape.in/iconic"
+                    href="https://booking.partyscape.co.in/iconic"
                     className="btn"
                   >
                     Book now
@@ -132,7 +132,7 @@ const Theaters = () => {
 
                 <div className="button">
                   <a
-                    href="https://booking.partyscape.in/skyline"
+                    href="https://booking.partyscape.co.in/skyline"
                     className="btn"
                   >
                     Book now
